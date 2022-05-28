@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<form id="form">
+    <div class="form__search">
+        <input type="text" class="form__input" placeholder="Введите название города">
+        <button type="submit" class="form__btn">Узнать погоду</button>
+    </div>
+    <div class="info-name">
+        <h1 class="name"></h1>
+        <span class="region"></span>
+    </div>
+    <div class="info-circle">
+        <img src="" alt="" class="image">
+        <p class="temp"></p>
+        <p class="tempStatus"></p>
+    </div>
+    <div class="info-weather">
+        <div class="info-weather__left">
+            <p class="info-weather__title">Давление</p>
+            <span class="pressure"></span>
+            <p class="info-weather__title">Скорость ветра</p>
+            <span class="speedWind"></span>
+            <p class="info-weather__title">Восход</p>
+            <span class="humidity"></span>
+        </div>
+        <div class="info-weather__right">
+            <p class="info-weather__title">Видимость</p>
+            <span class="visibility"></span>
+            <p class="info-weather__title">Влажность</p>
+            <span class="sunrise"></span>
+            <p class="info-weather__title">Заход</p>
+            <span class="sunset"></span>
+        </div>
+    </div>
+</form>
+<h2></h2>
+<script src="main.js"></script>
+</body>
+</html>
